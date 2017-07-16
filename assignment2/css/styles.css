@@ -1,5 +1,12 @@
+html{
+	height: 100%;
+	overflow: hidden;
+}
 body {
 	font-family: Lora, Arial, sans-serif;
+	height: 100%;
+	margin-right: 20px;
+	margin-left: 20px;
 }
 
 header h1 {
@@ -32,37 +39,41 @@ section div {
 }
 
 /*for section dummy text*/
-section p {
+section p{
 	clear: right;
 	padding: 10px;
+	height: 50%;
+	position: relative;
+	vertical-align: middle;
+	overflow: hidden;
 }
 
 /*section position control*/
 section {
 	box-sizing: border-box;
-	height: 200px;
 	background: #999999;
 	border: 1px solid black;
+	margin: 2%;
 }
 /*for desktop view (992px and above)*/
 @media (min-width: 992px) {
 	section {
 		float: left;
-		width: 31.3%;
-		margin: 1%;
+		width: 29.3%;
+		height: 50%;
 	}
 }
 /*for tablet view (between 768px and 991px)*/
 @media (min-width: 768px) and (max-width: 991px) {
 	#Chicken-section, #Beef-section {
 		float: left;
-		width: 48%;
-		margin: 1%;
+		width: 46%;
+		height: 40%;
 	}
 	#Sushi-section {
 		clear: left;
-		width: 98%;
-		margin: 1%;
+		width: 96%;
+		height: 40%;
 
 	}
 }
@@ -71,7 +82,7 @@ section {
 	#Chicken-section, #Beef-section , #Sushi-section{
 		float: left;
 		width: 96%;
-		margin: 2%;
+		height: 25%;
 	}
 }
 
