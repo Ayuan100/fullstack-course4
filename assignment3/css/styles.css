@@ -1,11 +1,19 @@
-body {
-  /*font-size: 16px;*/
-  /*color: #fff;*/
-  /*background-color: #61122f;*/
-  /*font-family: 'Oxygen', sans-serif;*/
+h1 {
+	margin-top: 0;
+	margin-bottom: 20px;
+	font-weight: bold;
 }
+
 #Chicken-section, #Beef-section, #Sushi-section {
-  background-color: #999999;
-  height: 200px;
-  overflow: hidden;
+	background-color: #999999;
+	height: 250px;
+	padding: 10px;
+	margin-bottom: 15px;
+	overflow: auto;
 }
+
+h3 {
+	margin-top: 0;
+	font-weight: bold;
+}
+
